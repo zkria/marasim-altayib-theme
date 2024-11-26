@@ -1,0 +1,19 @@
+marasim-altayib-theme/
+├── src/
+│   ├── assets/
+│   │   ├── images/      # الصور والأيقونات
+│   │   ├── js/          # ملفات جافاسكريبت
+│   │   └── styles/      # ملفات CSS و SCSS
+│   ├── locales/
+│   │   ├── ar.json      # ملفات الترجمة العربية
+│   │   └── en.json      # ملفات الترجمة الإنجليزية
+│   └── views/
+│       ├── components/   # المكونات القابلة لإعادة الاستخدام
+│       ├── layouts/      # قوالب التصميم الرئيسية
+│       └── pages/        # صفحات الموقع
+├── public/              # الملفات العامة
+├── .github/             # ملفات إعدادات GitHub
+├── .vscode/             # إعدادات Visual Studio Code
+├── package.json         # تبعيات المشروع
+├── tailwind.config.js   # إعدادات Tailwind CSS
+└── webpack.config.js    # إعدادات Webpack
