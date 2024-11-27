@@ -3,6 +3,7 @@ import Swal from 'sweetalert2';
 import Anime from './partials/anime';
 import initTootTip from './partials/tooltip';
 import AppHelpers from "./app-helpers";
+import DarkMode from './components/dark-mode';
 
 class App extends AppHelpers {
   constructor() {
@@ -32,6 +33,7 @@ class App extends AppHelpers {
     this.status = 'ready';
     document.dispatchEvent(new CustomEvent('theme::ready'));
     this.log('Theme Loaded 🎉');
+    new DarkMode();
   }
 
   log(message) {

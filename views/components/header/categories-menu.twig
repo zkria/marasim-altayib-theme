@@ -1,0 +1,12 @@
+<div class="categories-menu">
+    {% for category in categories %}
+        <a href="{{ category.url }}" class="category-card">
+            <div class="category-image">
+                <img src="{{ category.image }}" 
+                     alt="{{ category.name }}"
+                     loading="lazy">
+            </div>
+            <h3 class="category-name">{{ category.name }}</h3>
+        </a>
+    {% endfor %}
+</div> 

@@ -50,6 +50,7 @@
  *
 */
 
+@import "components/dark-mode";
 @import './01-settings/tailwind';
 @import './01-settings/fonts';
 @import './01-settings/global';
@@ -93,3 +94,6 @@
 @import 'lite-youtube-embed';
 //@import 'swiper/css/bundle';
 @import 'mmenu-light/dist/mmenu-light.css';
+
+@import "components/categories-menu";
+@import "theme/colors";
